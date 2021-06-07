@@ -28,9 +28,11 @@ if __name__ == "__main__":
     kpca = KernelPCA(n_components=4, kernel='poly') #kernel polinomial
     kpca.fit(X_train)
 
+    #aplicar kpca
     dt_train = kpca.transform(X_train)
     dt_test = kpca.transform(X_test)
 
+    #Usar regresion
     logistic = LogisticRegression(solver='lbfgs')
 
     logistic.fit(dt_train, y_train) #entrenar

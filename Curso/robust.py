@@ -1,5 +1,7 @@
 #Regresor robusto para el caso en el que tenemos varios datos
 #atipicos dentro de nuestro dataset
+#En este ejemplo se enseña como usar un ciclo for para usar varios estimadores en pocas lineas
+#de código
 from numpy.core.fromnumeric import mean
 import pandas as pd
 

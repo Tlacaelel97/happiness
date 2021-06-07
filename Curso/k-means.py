@@ -3,7 +3,7 @@ CLUSTERING
 Aprendizaje no suupervisado, no conocemos las etiquetas, nosabemos nada y querenos descubrir como se agrupan
 identificar valores atipicps.
 Dos caso de aplicacion: sabemos cauntos grupos queremos k_means o spectral clusterin
-si no conocemos k, 
+si conocemos k, 
 """
 #Asumimos que si sabemos cuantos grupos queremos
 import pandas as pd

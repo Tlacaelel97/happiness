@@ -31,7 +31,7 @@ if __name__ == "__main__":
         'criterion' : ['mse', 'mae'],
         'max_depth' : range(2,11)
     }
-    #n_iter no sidce cuandas combinaciones hara
+    #n_iter nos dice cuandas combinaciones hara
     rand_est = RandomizedSearchCV(reg,parametros, n_iter=10, cv=3, scoring='neg_mean_absolute_error').fit(X,y)
 
     print(rand_est.best_estimator_)

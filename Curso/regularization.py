@@ -1,3 +1,5 @@
+#Regularizar las features, aumentar un poco el sezgo para limitar la varianza
+
 import pandas as pd
 import sklearn
 #modelos
